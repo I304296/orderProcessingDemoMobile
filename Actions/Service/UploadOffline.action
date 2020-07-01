@@ -1,0 +1,9 @@
+{
+	"Service": "/zProdCatalogs/Services/zProdCatalogs.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/zProdCatalogs/Actions/Service/DownloadStartedMessage.action",
+	"OnFailure": "/zProdCatalogs/Actions/Service/SyncFailureMessage.action"
+}

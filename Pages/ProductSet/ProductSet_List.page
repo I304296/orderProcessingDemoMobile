@@ -1,0 +1,45 @@
+{
+	"Caption": "Products",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Header": {
+						"UseTopPadding": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"Description": "{System}",
+						"DetailImageIsCircular": false,
+						"Footnote": "{Price}",
+						"OnPress": "/zProdCatalogs/Actions/ProductSet/NavToProductSet_Detail.action",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{PlantID}",
+						"Subhead": "{ProductId}",
+						"SubstatusText": "{ProductGroup}",
+						"Title": "{Name}"
+					},
+					"Search": {
+						"BarcodeScanner": true,
+						"Enabled": true,
+						"Placeholder": "Search"
+					},
+					"Target": {
+						"EntitySet": "ProductSet",
+						"QueryOptions": "$orderby=ProductId",
+						"Service": "/zProdCatalogs/Services/zProdCatalogs.service"
+					},
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "ProductSet_List",
+	"_Type": "Page"
+}

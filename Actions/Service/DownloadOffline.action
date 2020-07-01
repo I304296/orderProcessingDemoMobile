@@ -1,0 +1,14 @@
+{
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"DefiningRequests": [
+		{
+			"Name": "ProductSet",
+			"Query": "ProductSet?$top=100&$filter=ProductGroup eq 'ZYOUTH' or ProductGroup eq 'ZRETFDBV' or ProductGroup eq 'ZRETAPRL' or ProductGroup eq 'ZRETSUPL' or ProductGroup eq '10120000'"
+		}
+	],
+	"OnFailure": "/zProdCatalogs/Actions/Service/SyncFailureMessage.action",
+	"Service": "/zProdCatalogs/Services/zProdCatalogs.service",
+	"_Type": "Action.Type.OfflineOData.Download"
+}

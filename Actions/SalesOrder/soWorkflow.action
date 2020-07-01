@@ -1,0 +1,4 @@
+{
+	"Service": "/zProdCatalogs/Services/workflow.service",
+	"_Type": "Action.Type.ODataService.Open"
+}

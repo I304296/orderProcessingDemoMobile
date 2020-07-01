@@ -1,0 +1,6 @@
+{
+	"AppId": "com.demo.tryout",
+	"DestinationName": "iFlowProduct",
+	"OfflineEnabled": true,
+	"ServiceUrl": "/destinations/mobileservices_cf_demo"
+}

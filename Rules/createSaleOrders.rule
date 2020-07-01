@@ -1,0 +1,4 @@
+{
+ "rulecode": "/zProdCatalogs/Rules/createSaleOrders.rule.js",
+ "rulemodel": "<xml xmlns='http://www.w3.org/1999/xhtml'><block type='procedures_defreturn' id='1' inline='false' x='200' y='100'><mutation><arg name='clientAPI'></arg></mutation><field name='NAME'>createSaleOrders</field><comment pinned='false' h='80' w='160'>Describe this function...</comment><data>default function</data></block></xml>"
+}

@@ -1,0 +1,5 @@
+{
+	"OnFailure": "/zProdCatalogs/Actions/Push/PushRegisterFailureMessage.action",
+	"OnSuccess": "/zProdCatalogs/Actions/Push/PushRegisterSuccessMessage.action",
+	"_Type": "Action.Type.PushNotificationRegister"
+}

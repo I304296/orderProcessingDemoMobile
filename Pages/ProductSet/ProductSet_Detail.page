@@ -1,0 +1,102 @@
+{
+	"Caption": "Product Details",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Description": "{System}",
+						"HeadlineText": "{Name}",
+						"StatusText": "{Preferred}",
+						"Subhead": "{ProductId}",
+						"SubstatusText": "{QuantityUnit}",
+						"Tags": [
+						]
+					},
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "Name",
+							"Value": "{Name}"
+						},
+						{
+							"KeyName": "Plant ID",
+							"Value": "{PlantID}"
+						},
+						{
+							"KeyName": "Price",
+							"Value": "{Price}"
+						},
+						{
+							"KeyName": "Currency Code",
+							"Value": "{CurrencyCode}"
+						},
+						{
+							"KeyName": "Weight",
+							"Value": "{Weight}"
+						},
+						{
+							"KeyName": "Weight Unit",
+							"Value": "{WeightUnit}"
+						},
+						{
+							"KeyName": "Quantity Unit",
+							"Value": "{QuantityUnit}"
+						},
+						{
+							"KeyName": "Supplier Id",
+							"Value": "{SupplierId}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"_Name": "SectionedTable",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "Create Order",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/zProdCatalogs/Rules/triggerWorkflow.js",
+				"Visible": true,
+				"_Name": "ToolbarItem0",
+				"_Type": "Control.Type.ToolbarItem"
+			},
+			{
+				"Caption": "Sale Order App",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/zProdCatalogs/Rules/openSAPcom.js",
+				"Visible": true,
+				"_Name": "ToolbarItem1",
+				"_Type": "Control.Type.ToolbarItem"
+			},
+			{
+				"Caption": "Open Fiori Client",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/zProdCatalogs/Rules/openFioriClient.js",
+				"Visible": false,
+				"_Name": "ToolbarItem2",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "ProductSet_Detail",
+	"_Type": "Page"
+}

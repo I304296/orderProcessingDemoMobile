@@ -1,0 +1,17 @@
+{
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"ActivityIndicatorText": "Downloading...",
+	"DefiningRequests": [
+		{
+			"Name": "ProductSet",
+			"Query": "ProductSet?$top=100&$filter=ProductGroup eq 'ZYOUTH' or ProductGroup eq 'ZRETFDBV' or ProductGroup eq 'ZRETAPRL' or ProductGroup eq 'ZRETSUPL' or ProductGroup eq '10120000'"
+		}
+	],
+	"OnFailure": "/zProdCatalogs/Actions/Service/InitializeOfflineFailureMessage.action",
+	"OnSuccess": "/zProdCatalogs/Actions/Logs/LogSetState.action",
+	"Service": "/zProdCatalogs/Services/zProdCatalogs.service",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.OfflineOData.Initialize"
+}

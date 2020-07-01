@@ -1,0 +1,7 @@
+{
+	"ActivityIndicatorText": "Uploading Logs...",
+	"OnFailure": "/zProdCatalogs/Actions/Logs/LogUploadFailure.action",
+	"OnSuccess": "/zProdCatalogs/Actions/Logs/LogUploadSuccessful.action",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.Logger.Upload"
+}

@@ -1,0 +1,6 @@
+{
+	"Animated": true,
+	"Duration": 10,
+	"Message": "Test - {{#Application/#ClientData/#Property:MobileServiceEndpoint}}",
+	"_Type": "Action.Type.BannerMessage"
+}

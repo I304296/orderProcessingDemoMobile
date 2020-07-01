@@ -1,0 +1,6 @@
+{
+	"AppId": "com.demo.tryout",
+	"DestinationName": "wf_test",
+	"OfflineEnabled": false,
+	"ServiceUrl": "/destinations/mobileservices_cf_demo"
+}

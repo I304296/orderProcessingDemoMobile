@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.OfflineOData.Close",
+	"Service": "/zProdCatalogs/Services/zProdCatalogs.service",
+	"Force": true,
+	"ActionResult": {
+		"_Name": "close"
+	},
+	"OnSuccess": "/zProdCatalogs/Actions/Service/CloseOfflineSuccessMessage.action",
+	"OnFailure": "/zProdCatalogs/Actions/Service/CloseOfflineFailureMessage.action"
+}
